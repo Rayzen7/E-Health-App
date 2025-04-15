@@ -42,7 +42,7 @@ class DoctorController extends Controller
             'doctor_phone_number' => 'required|string',
             'doctor_address' => 'required|string',
             'doctor_email' => 'required|string',
-            'doctor_bio' => 'string',
+            'doctor_bio' => '',
         ]);
 
         if ($validateData->fails()) {
@@ -103,7 +103,7 @@ class DoctorController extends Controller
             'doctor_phone_number' => 'required|string',
             'doctor_address' => 'required|string',
             'doctor_email' => 'required|string',
-            'doctor_bio' => 'string',
+            'doctor_bio' => '',
         ]);
 
         if ($validateData->fails()) {
